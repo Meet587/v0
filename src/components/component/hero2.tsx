@@ -324,7 +324,7 @@ export function Hero2() {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props:any) {
   return (
     <svg
       {...props}

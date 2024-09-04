@@ -269,7 +269,7 @@ export function Hero4() {
   )
 }
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -290,7 +290,7 @@ function BriefcaseIcon(props) {
 }
 
 
-function BrushIcon(props) {
+function BrushIcon(props:any) {
   return (
     <svg
       {...props}
@@ -311,7 +311,7 @@ function BrushIcon(props) {
 }
 
 
-function CalendarDaysIcon(props) {
+function CalendarDaysIcon(props:any) {
   return (
     <svg
       {...props}
@@ -340,7 +340,7 @@ function CalendarDaysIcon(props) {
 }
 
 
-function CodeIcon(props) {
+function CodeIcon(props:any) {
   return (
     <svg
       {...props}
@@ -361,7 +361,7 @@ function CodeIcon(props) {
 }
 
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -383,7 +383,7 @@ function DatabaseIcon(props) {
 }
 
 
-function GitlabIcon(props) {
+function GitlabIcon(props:any) {
   return (
     <svg
       {...props}
@@ -403,7 +403,7 @@ function GitlabIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props:any) {
   return (
     <svg
       {...props}
@@ -425,7 +425,7 @@ function LinkedinIcon(props) {
 }
 
 
-function ServerIcon(props) {
+function ServerIcon(props:any) {
   return (
     <svg
       {...props}
@@ -448,7 +448,7 @@ function ServerIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props:any) {
   return (
     <svg
       {...props}

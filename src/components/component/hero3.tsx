@@ -353,7 +353,7 @@ export function Hero3() {
   )
 }
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -374,7 +374,7 @@ function BriefcaseIcon(props) {
 }
 
 
-function GitlabIcon(props) {
+function GitlabIcon(props:any) {
   return (
     <svg
       {...props}
@@ -394,7 +394,7 @@ function GitlabIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props:any) {
   return (
     <svg
       {...props}
@@ -416,7 +416,7 @@ function LinkedinIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props:any) {
   return (
     <svg
       {...props}
@@ -436,7 +436,7 @@ function MountainIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props:any) {
   return (
     <svg
       {...props}
