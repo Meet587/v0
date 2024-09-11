@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="bg-primary text-primary-foreground py-4 px-6 flex justify-between items-center">
             <Link href="#" className="flex items-center justify-center" prefetch={false}>
-                <BriefcaseIcon className="h-6 w-6" />
+                <CodeIcon className="w-6 h-6" />
                 <span className="sr-only">Portfolio</span>
             </Link>
             <nav className="hidden md:flex gap-4 sm:gap-6">
@@ -97,7 +97,7 @@ const Header = () => {
     );
 };
 
-function BriefcaseIcon(props: any) {
+function CodeIcon(props: any) {
     return (
         <svg
             {...props}
@@ -111,8 +111,8 @@ function BriefcaseIcon(props: any) {
             strokeLinecap="round"
             strokeLinejoin="round"
         >
-            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <polyline points="16 18 22 12 16 6" />
+            <polyline points="8 6 2 12 8 18" />
         </svg>
     );
 }

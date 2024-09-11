@@ -17,9 +17,10 @@ export default function Projects() {
                     <p className="text-muted-foreground text-lg">Practical Experience in Full-Stack Web Development.</p>
                 </div>
                 <div className=' grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 sm:mt-4 md:mt-10' >
-                    {[1, 2, 3, 4, 5, 6].map(el => {
+                    {[1, 2, 3, 4, 5, 6].map((_,i) => {
                         return (
                             <Card className="group overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                            key={`${i}-card`}
                             >
                                 <Link href="#" className="block" prefetch={false}>
                                     <CardHeader className="bg-muted p-4 md:p-6">

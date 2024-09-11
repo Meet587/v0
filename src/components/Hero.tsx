@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const HeroMain = () => {
@@ -46,7 +47,7 @@ const HeroMain = () => {
                         </div>
                     </div>
                 </div>
-                <img
+                <Image
                     src="/placeholder.svg"
                     width="400"
                     height="400"
